@@ -117,7 +117,22 @@ line-height: 30px;
 margin-bottom: 30px;
 }
 /* main section styles */
-.about{
-    padding: 130px;
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
 }
 /* about section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 103px 0;
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
